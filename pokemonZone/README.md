@@ -30,4 +30,4 @@ Follow these steps to run the project in your local environment:
 3. Open the index.html file in your browser
 
 ## License 
-This project is licensed under the CC NC License.
+This project is licensed under the CC BY License (can be used and modified, even for commercial purposes, as long as the author is acknowledged).
