@@ -1,6 +1,9 @@
 # Pokemon Zone
 Brief description of the application's functionality, eg., An interactive application for managing pokemon data persistence.
 
+## Author
+Christian D. Vargas
+
 ## Objective
 This repository was created with the primary goal of demonstrating a solid command of integrating and manipulating data from external sources, as well as managing clientside data persistence.
 
