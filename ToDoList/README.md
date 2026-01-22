@@ -21,6 +21,13 @@ This project implements the browser's localStorage to prevent data loss. The log
 2. Retrieving Data: On page load, the app checks for the key using localStorage.getItem().
 3. Parsing: If data exists, it is converted back into a JavaScript object using JSON.parse() and rendered to the DOM.
 
+## 🔗 Live Demo
+
+Experience the live application here:  
+👉 **[Launch To-Do List App](https://vargasc475.github.io/Portfolio/ToDoList)**
+
+---
+
 ⚙️ Installation & Setup
 Since this is a client-side project, no server-side setup is required.
 
