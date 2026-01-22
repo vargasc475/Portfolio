@@ -25,6 +25,13 @@ The two key technological pillars of this project are:
 - Data Handling: fetch
 - Storage: localStorage
 
+## 🔗 Live Demo
+
+Experience the live application here:  
+👉 **[Enter PokemonZone](https://vargasc475.github.io/Portfolio/pokemonZone)**
+
+---
+
 ## Installation and Setup
 Follow these steps to run the project in your local environment:
 
