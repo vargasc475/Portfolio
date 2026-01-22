@@ -1,5 +1,10 @@
 # 💻 Frontend Development Portfolio
 
+## Author
+Christian D. Vargas
+
+---
+
 Welcome to my professional frontend development showcase. This repository serves as a centralized hub for my web projects, demonstrating my ability to build functional, user-centered, and responsive digital experiences using core web technologies.
 
 ---
