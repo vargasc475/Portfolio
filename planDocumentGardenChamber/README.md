@@ -4,7 +4,7 @@ This repository contains the strategic planning and design framework for the **G
 
 ## 🔗 Live Preview
 You can view the live planning document and interactive prototype here:
-👉 **[View Live Project](https://vargasc475.github.io/Portfolio/plaDocumentGardenChamber)**
+👉 **[View Live Project](https://vargasc475.github.io/Portfolio/planDocumentGardenChamber)**
 
 ---
 
