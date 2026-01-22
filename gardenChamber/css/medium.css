@@ -1,0 +1,387 @@
+@media (min-width: 45em) {
+    button {
+        width: 20%;
+        height: 40%;
+    }
+
+
+    /*-------- STYLING BANNER -------*/
+    #banner {
+        display: none;
+    }
+    /*------- STYLING HEADER --------*/
+    header {
+        display: grid;
+        grid-template-columns: 150px 1fr 1fr 1fr;
+        grid-template-rows: 100px 50px 1fr;
+        height: 150px;
+    }
+
+    .header-logo {
+        margin-left: 50px;
+        width: 70px;
+
+    }
+
+    .header-title {
+        justify-self: start;
+        font-size: 10px;
+    }
+
+    .header-date {
+        font-size: 16px;
+    }
+
+    nav {
+        font-size: 16px;
+        position: relative;
+    }
+
+    .social {
+        justify-self: end;
+    }
+
+    .social img {
+        width: 30px;
+        padding: 5px;
+    }
+
+    /* STYLING MAIN */
+
+    main {
+        display: grid;
+        grid-template-rows: 453px 250px 350px 250px 300px;
+        grid-template-columns: 480px 1fr;
+    }
+
+    /* styling hero box */
+
+    .placeholder-box-hero {
+        grid-row: 1/2;
+        grid-column: 1/3;
+    } 
+
+    .welcome {
+        bottom: 350px;
+        left: 50px;
+        width: 450px;
+        font-size: 30px;
+    }
+
+    .button {
+        bottom: 200px;
+        left: 450px;
+        font-size: 26px;
+        width: 250px;
+        text-align: center;
+        box-shadow: 0 0 30px black;
+    }
+
+    /* styling news box */
+
+    .placeholder-box-news {
+        grid-row: 2/3;
+        grid-column: 1/3;
+        margin: 20px 0;
+        padding: 20px 40px;
+    }
+
+    /* styling spotlight */
+
+    .placeholder-box-spotlight {
+        grid-row: 3/4;
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0;
+        margin: 0;
+    }
+
+    .placeholder-box-spot1, .placeholder-box-spot2 {
+        height: fit-content;
+        width: 90%;
+    }
+
+    .placeholder-box-spot1 {
+        align-self: center;
+        justify-self: end;
+        grid-row: 1/3;
+    }
+    
+    .placeholder-box-spot2 {
+        align-self: center;
+        justify-self: start;
+        grid-row: 1/3;
+    }
+
+    /* styling join box */
+
+    .placeholder-box-join {
+        display: block;
+        grid-row: 4/5;
+        grid-column: 1/3;
+        text-align: center;
+        background-color: #004346;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+
+    #join-button a {
+        text-decoration: none;
+        background-color: #09bc89;
+        color: #004346;
+        border-radius: 5px;
+        font-size: 28px;
+        padding: 15px;
+        box-shadow: 0 0 20px black;
+    }
+
+    #join-button a:hover {
+        background-color: #004346;
+        color: #fff;
+    }
+
+    .placeholder-box-join:hover {
+        background-color: #09bc89;
+    }
+
+    #join-p {
+        font-size: 16px;
+        margin-top: 40px;
+        color: #fff;
+    }
+
+    /* styling event box */
+
+    .placeholder-box-event {
+        grid-row: 5/6;
+        grid-column: 1/2;
+        grid-template-rows: 1fr 80px 1fr 50px;
+        border-radius: 0 5px 5px 0;
+        margin-top: 6px;
+        margin-bottom: 15px;
+    }
+
+    #event-h2 {
+        font-size: 24px;
+    }
+
+    #event-h3 {
+        font-size: 16px;
+        align-self: center;
+    }
+
+    #event-p {
+        margin: 0 25px;
+    }
+
+    #event-moreinfo {
+        font-size: 14px;
+        margin: 0;
+        align-self: start;
+    }
+
+    /* styling weather box */
+    .placeholder-box-weather {
+        grid-row: 5/6;
+        grid-column: 2/3;
+        justify-self: end;
+        margin-right: 0;
+        margin-bottom: 15px;
+        border-radius: 5px 0 0 5px;
+    }
+
+    /*-------- STYLING DISCOVER MAIN --------*/
+
+    #discover-main {
+        height: fit-content;
+        display: block;
+    }
+
+    #discover {
+        grid-column: 1/3;
+    }
+
+    #discover h2 {
+        text-align: end;
+        padding: 10px 30px;
+        margin-left: 0;
+        margin-right: 550px;
+        font-size: 24px;
+    }
+
+    #discover p {
+        text-align: start;
+        margin-left: 50px;
+        margin-right: 150px; 
+        font-size: 16px;
+    }
+
+    #discover #tourist-places p {
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #discover h3 {
+        border-bottom: 1px solid black;
+        margin: 18px 300px 18px 40px;
+        font-size: 18px;
+    }
+
+    #discover picture {
+        margin: 10px 180px;
+        padding: 20px 0;
+    }
+
+    #discover #tourist-places picture:hover {
+        margin: 10px 120px;
+        background-color: #09bc89;
+        border-radius: 20px;
+    }
+
+    #discover #tourist-places picture img:hover {
+        filter: grayscale(80%);
+    }
+
+    #tourist-places h2 {
+        border: none;
+        text-align: center;
+        font-size: 20px;
+        margin: 50px 20px;
+    }
+
+    /*-------- STYLING FORM MAIN ---------*/
+
+    #form-page h2 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        font-size: 20px;
+    }
+
+    form {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        font-size: 18px;
+    }
+
+    form fieldset {
+        width: fit-content;
+        margin: 2rem auto 1rem;
+    }
+
+    form input.submitBtn {
+        margin: 0 29%;
+    }
+
+    /*-------- STYLING THANKS MAIN ---------*/
+
+
+    #form-page .thanks-div {
+        grid-column: 1/3;
+        margin: 50px 50px;
+    }
+
+    /*------ STYLING DIRECTORY MAIN "CARDS" -------*/
+    .directory {
+        height: fit-content;
+    }
+
+    .directory .directory_h2 {
+        font-size: 30px;
+        padding: 10px 0;
+        height: fit-content;
+    }
+
+    /*------ STYLING DIRECTORY MAIN "LIST" -------*/
+
+    .list {
+        height: fit-content;
+    }
+
+    .list .directory_list img {
+        display: block;
+        width: 100px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        border-radius: 5px;
+    }
+
+    .list .directory_list section {
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 16px;
+        justify-items: center;
+        align-items: center;
+    }
+
+
+    .list #grid-button, .directory #grid-button {
+        justify-self: start;
+        margin-top: 120px;
+        margin-left: 200px;
+    }
+
+    .list #list-button, .directory #list-button {
+        justify-self: end;
+        margin-right: 200px;
+        margin-bottom: 0;
+    }
+
+    /*--------- STYLING CONTACT MAIN ---------*/
+
+    #contact-form fieldset label {
+        margin: 22px 25px 0 5px;
+    }
+
+    #contact-information p {
+        font-size: 16px;
+    }
+
+    /*--------- STYLING FOOTER ----------*/
+
+    .small {display: none;}
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 350px 1fr;
+        grid-template-rows: 150px 25px;
+        padding-bottom: 20px;
+    }
+
+    .footer-logo {
+        width: 100px;
+        margin-left: 60px;
+        margin-top: 0;
+    }
+
+
+    .direction p {
+        text-align: left;
+    }
+
+    .info {
+        align-self: center;
+        padding-top: 25px;
+    }
+
+    .info p {
+        margin: 5px;
+    }
+
+    .medium {
+        display: block;
+        grid-column: 1/4;
+        justify-self: center;
+        border-top: 0.2px solid #fff;
+        width: 95%;
+    }
+
+    .medium p {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+}
