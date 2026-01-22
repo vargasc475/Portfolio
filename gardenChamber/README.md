@@ -14,6 +14,10 @@ Check out the live site here:
 * **Visibility Hub:** A dedicated space for businesses to showcase their services and reach potential clients.
 * **B2B Growth:** Focused on helping small to medium enterprises (SMEs) establish their digital footprint.
 
+### 🌓 Persistent UI Preferences (Local Storage)
+* **Customizable Layout:** Users can toggle between **List View** and **Grid (Card) View** according to their preference.
+* **State Persistence:** Implemented **Local Storage** to remember the user's view selection even after refreshing the page or closing the browser, providing a seamless UX.
+
 ### 🌤️ Real-Time Weather Integration
 * **Dynamic Insights:** Integrated with a **Weather API** to provide live local climate updates, adding utility for users visiting the platform.
 * **Contextual Data:** Useful for local businesses whose services might be weather-dependent (e.g., tourism, landscaping, events).
@@ -28,6 +32,7 @@ Check out the live site here:
 
 * **Frontend:** HTML5, CSS3 (Modern Responsive Design)
 * **Interactivity:** JavaScript (ES6+)
+* **Data Persistence:** Local Storage API for user preferences.
 * **API Integration:** Weather API for real-time climate data.
 * **UI/UX Focus:** Clean, professional aesthetic designed for high readability and B2B trust.
 
